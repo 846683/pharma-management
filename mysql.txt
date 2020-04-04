@@ -1,0 +1,19 @@
+create database project;
+use project;
+create table medicine
+(id int(12) primary key auto_increment,
+typeOfMedicine varchar(50),
+medicine_name varchar(50),
+price float(10),
+manufacturer varchar(50),
+dateOfExpiry date
+);
+select *from pharma;
+
+create table login
+(
+username varchar(20),
+password varchar(20)
+);
+
+select *from login;
